@@ -23,6 +23,9 @@ function setEvents() {
         div.addEventListener('mouseenter', () => {
             div.classList.add('post-hover');
         });
+        div.addEventListener('click', () => {
+            div.classList.toggle('post-hover');
+        });
     });
 }
 
