@@ -1,0 +1,21 @@
+#container {
+    display: grid;
+    height: 80vmin;
+    width: 80vmin;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.pre-hover {
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.post-hover {
+    margin: 0;
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+}
