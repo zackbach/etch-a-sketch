@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 #container {
     display: grid;
     height: 80vmin;
@@ -18,4 +20,20 @@
     border-style: solid;
     border-width: 1px;
     background-color: black;
+}
+
+#button-div {
+    width: 80vmin;
+    margin: 0 auto;
+    display: grid;
+}
+
+button {
+    width: 1fr;
+    background-color: #ad974f;
+    color: white;
+    margin-top: 6px;
+    font-family: 'Open Sans',serif;
+    font-size: 20px;
+    text-align: center;
 }
